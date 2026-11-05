@@ -1,0 +1,17 @@
+{
+  "name": "cuadros-graduacion",
+  "version": "1.0.0",
+  "description": "Sitio de una sola pagina para venta de cuadros de graduacion (A4, 25x35cm, A3)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

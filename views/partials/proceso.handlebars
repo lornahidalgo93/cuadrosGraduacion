@@ -1,0 +1,18 @@
+<section id="proceso" class="seccion seccion-proceso">
+  <div class="container">
+    <p class="eyebrow text-center">El camino hasta tu cuadro</p>
+    <h2 class="titulo-seccion text-center">Cómo funciona</h2>
+
+    <div class="row g-4 mt-3">
+      {{#each proceso}}
+      <div class="col-md-3">
+        <div class="paso-proceso">
+          <span class="numero-paso">{{this.numero}}</span>
+          <h3 class="titulo-paso">{{this.titulo}}</h3>
+          <p class="texto-paso">{{this.texto}}</p>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>

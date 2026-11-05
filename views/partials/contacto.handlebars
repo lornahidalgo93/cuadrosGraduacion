@@ -1,0 +1,45 @@
+<section id="contacto" class="seccion seccion-contacto">
+  <div class="container">
+    <div class="row align-items-center gy-4">
+      <div class="col-lg-6">
+        <p class="eyebrow eyebrow-claro">Hablemos</p>
+        <h2 class="titulo-seccion titulo-claro">
+          Cotiza tu cuadro de graduación
+        </h2>
+        <p class="texto-contacto">
+          Escríbenos por WhatsApp con el formato que te interesa. Te respondemos con tu cotización a la brevedad.
+        </p>
+        <a
+          href="{{whatsappLink negocio.whatsapp "Hola, quiero cotizar un cuadro de graduación"}}"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-lg btn-cta-primario"
+        >
+          Escribir por WhatsApp
+        </a>
+      </div>
+      <div class="col-lg-6">
+        <ul class="lista-contacto">
+          <li>
+            <span class="etiqueta-contacto">Ubicación</span>
+            {{negocio.ciudad}}
+          </li>
+          <li>
+            <span class="etiqueta-contacto">Horario</span>
+            {{negocio.horario}}
+          </li>
+          <li>
+            <span class="etiqueta-contacto">Correo</span>
+            <a href="mailto:{{negocio.correo}}">{{negocio.correo}}</a>
+          </li>
+          <li>
+            <span class="etiqueta-contacto">Instagram</span>
+            <a href="{{negocio.instagram}}" target="_blank" rel="noopener"
+              >@{{negocio.nombre}}</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
